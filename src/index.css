@@ -1,13 +1,161 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title{
+  position: absolute;
+  align-self: center;
+  left: 48%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #FFFFFF;
+}
+
+h3{
+  position: relative;
+  width: 326px;
+  height: 33px;
+  left: 184px;
+  top: 10px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  
+  color: #2B283A;
+}
+#earth--icon{
+  position: absolute;
+  width: 30px;
+  align-self: center;
+  left: 44.5%;
+}
+
+.image--card{
+  position: absolute;
+  width: 120px;
+  height: 170px;
+  object-fit: cover;
+  margin-left: 20px;
+  border-radius: 3px;
+
+
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
+.date{
+
+  position: relative;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: -50px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  
+  color: #2B283A;
+
+}
+
+.card--text{
+  position: relative;
+width: 326px;
+height: 60px;
+left: 184px;
+top: -50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+
+color: #2B283A;
+}
+
+.link{
+  position: relative;
+  width: 106px;
+  height: 13px;
+  left: auto;
+  bottom: 98px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.card--location{
+  position: relative;
+  width: 72px;
+  height: 10px;
+  left: 195px;
+  top: -98px;
+
+  margin-right: 210px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+
+}
+
+footer{
+  display: flex;
+  height: 20px;
+  align-items: center;
+  background-color: #d4d4d499;
+
+}
+
+footer > span{
+  position: absolute;
+  left: 40%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918E9B;
+}
+
+.gpsIcon{
+  position: relative;
+  width: 12.5px;
+  top: -65px;
+  left: 180px;
 }
